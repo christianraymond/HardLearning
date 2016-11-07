@@ -1,0 +1,21 @@
+var total = 0, count = 1;
+  while(count <= 10){
+    total += count;
+    count += 1;
+  }
+console.log(count);
+console.log(sum(range(1,10)));
+
+// Here's a prototype of the code above'
+
+Set " total " to 0.
+Set " count " to 1.
+[ loop ]
+Set " compare " to " count ".
+Subtract 11 from " compare ".
+If " compare " is zero , continue at [ end ].
+Add " count " to " total ".
+Add 1 to " count ".
+Continue at [ loop ].
+[ end ]
+Output " total ".
